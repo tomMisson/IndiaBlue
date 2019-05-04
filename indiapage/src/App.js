@@ -23,11 +23,11 @@ export default class App extends React.Component {
     state={
         internalLinks:[
             {id:0, name:"Home", link:"/", component:Index},
-            {id:1, name:"Video", link:"/video", component:Video},
+            {id:1, name:"Music", link:"/music", component:Video},
             {id:2, name:"Event", link:"/event", component:Events},
             {id:3, name:"Contact", link:"/contact", component:Contact},
         ],
-        sideDrawerOpen:true,
+        sideDrawerOpen:false,
         socialLinks:[
             {id:0, name: "Facebook", link:"https://www.facebook.com/IndiaBlueMusic", image:facebook},
             {id:1, name: "Twitter", link:"https://twitter.com/IndiaBlueMusic", image:twitter},

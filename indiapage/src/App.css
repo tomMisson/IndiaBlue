@@ -14,6 +14,41 @@ body{
   margin-top: 60px;
 }
 
+.about-me{
+  margin:40px;
+}
+
+.jumbotron h1{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding:28vh 30vw;
+  font-size: 4.0rem;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.5); 
+}
+
+h1{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 4.0rem;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.5); 
+  padding-bottom: 50px;
+}
+
+.jumbotron p{
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  font-size: 2.0rem;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.5); 
+}
+
+.jumbotron{
+  width:100vw;
+  height:100vh;
+  background-image: url('./Media/harp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .toolbar{
   position: fixed;
   top: 0;
@@ -150,6 +185,14 @@ body{
   position: relative;
   width:100%;
   bottom:100;
+}
+
+iframe{
+  padding: 10px 15px;
+}
+
+.videos{
+  text-align: center;
 }
 
 @media(max-width:768px){
