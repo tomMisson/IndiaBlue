@@ -1,33 +1,176 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Unicase|Playfair+Display+SC');
+
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-color: #2b546d;
+  font-family: 'Cormorant Unicase', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color:#f2e9cb;
+  margin-top: 60px;
+}
+
+.toolbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:#eee;
+  height:60px;
+  margin-bottom: 5px;
+}
+
+.toolbar_nav a{
+  color: #333;
+}
+
+.toolbar_logo a{
+  color: #212529;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  letter-spacing: 2px;
+}
+
+.toolbar_nav{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem
+}
+
+.spacer{
+  flex: 1;
+}
+
+.toolbar_navigation_items ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.toolbar_navigation_items a{
+  padding: 0 0.5rem;
+  list-style-type: none;
+  font-family: 'Cinzel', serif;
+  text-decoration: none; 
+  font-size: 1.4rem;
+}
+
+.toolbar_navigation_items a:hover
+,.toolbar_navigation_items a:active{
+  color: #b2cdda;
+}
+
+.toggle_button{
+  height: 25px;
+  width: 36px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  margin:2px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.toggle_button:focus{
+  outline: none
+}
+
+.toggle_button_line{
+  width: 30px;
+  height: 2px;
+  background:#212529;
+}
+
+.sideDraw{
+  height: 100%;
+  background: #fff;
+  box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+  transform: translateX(-105%);
+  transition: transform 0.3s ease-out;
+}
+
+.sideDraw ul{
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.sideDraw a{
+  text-decoration: none;
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sideDraw a:hover,
+.sideDraw a:active{
+  color: #b2cdda;
 }
 
-.App-link {
-  color: #61dafb;
+.sideDraw li{
+  margin: 0.5rem;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.backdrop{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 100;
+  top:0;
+  left:0;
+}
+
+.sideDraw.open{
+  transform: translateX(0);
+}
+
+.socialLinks{
+  /*background-color: #6d422b;*/
+  margin-top: 30px;
+  text-align: center;
+  position: relative;
+  width:100%;
+  bottom:100;
+}
+
+@media(max-width:768px){
+  .toolbar_navigation_items
+  { 
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media(min-width:769px){
+  .toolbar_toggle_button{
+    display: none;
+  }
+
+  .toolbar_logo{
+    margin-left: 0rem;
   }
 }
+
+::-webkit-scrollbar { 
+  display: none; 
+} 
+
+
