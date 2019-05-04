@@ -200,6 +200,12 @@ iframe{
   { 
     display: none;
   }
+
+  .yt-video{
+    width:80vw;
+    height: 40vh;
+  }
+  
 }
 
 @media(min-width:769px){
@@ -209,6 +215,11 @@ iframe{
 
   .toolbar_logo{
     margin-left: 0rem;
+  }
+
+  .yt-video{
+    width: 700px;
+    height:393.75px;
   }
 }
 

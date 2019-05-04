@@ -4,7 +4,8 @@ export default class event extends Component {
   render() {
     return (
     <main>
-        <p>Event</p>
+      <br/>
+        <h1>Event</h1>
     </main>
     )
   }

@@ -21,10 +21,10 @@ export default class video extends Component {
           <div className="videos">
           {
             this.state.linksToRender.map(
-              (link) => <iframe key={link.id} title={link.name} width="600" height="337.50" src={link.url} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              (link) => <iframe key={link.id} title={link.name} className="yt-video" src={link.url} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             )
           }
-          <iframe style={{border: "0", width: "600px", height: "720px"}} src="https://bandcamp.com/EmbeddedPlayer/album=4003996753/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://indiablue.bandcamp.com/album/india-blue-live-at-small-world">India Blue Live at Small World by IndiaBlue</a></iframe>
+          <iframe className="yt-video" style={{border:'0'}} title="Music from bandcamp" width= "350vw" height= "250vh" src="https://bandcamp.com/EmbeddedPlayer/album=4003996753/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://indiablue.bandcamp.com/album/india-blue-live-at-small-world">India Blue Live at Small World by IndiaBlue</a></iframe>
           </div>
       </main>
     )
