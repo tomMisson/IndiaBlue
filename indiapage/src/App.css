@@ -23,6 +23,7 @@ body{
   text-align: center;
   padding:28vh 30vw;
   font-size: 4.0rem;
+  letter-spacing: 8px;
   text-shadow: 3px 3px 2px rgba(0,0,0,0.5); 
 }
 
@@ -179,7 +180,7 @@ h1{
 }
 
 .socialLinks{
-  /*background-color: #6d422b;*/
+  background-color: #5f8495;;
   margin-top: 30px;
   text-align: center;
   position: relative;
@@ -193,6 +194,17 @@ iframe{
 
 .videos{
   text-align: center;
+}
+
+.content{
+  position: relative;
+}
+
+footer{
+  position: relative;
+  width:100%;
+  bottom:0;
+  left:0;
 }
 
 @media(max-width:768px){

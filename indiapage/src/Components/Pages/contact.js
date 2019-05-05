@@ -5,10 +5,12 @@ export default class contact extends Component {
 
   render() {
     return (
-      <main>
+    <main>
         <br/>
-          <h1>Contact</h1>
-      </main>
+        <h1>Contact</h1>
+
+        <input/>
+    </main>
     )
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from "react-router-dom";
 
 export default class SideDrawer extends Component {
   render() {
@@ -12,7 +13,7 @@ export default class SideDrawer extends Component {
           <ul>
           {
             this.props.sideLinks.map((link) => (
-              <li key={link.id}><a href={link.link} >{link.name}</a></li>
+              <li key={link.id}><Link to={link.link} >{link.name}</Link></li>
             ))
           }
           </ul>

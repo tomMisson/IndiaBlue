@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import {BrowserRouter, Route, Link, Switch} from "react-router-dom";
 
 import './App.css';
 import logo from './Media/logo dark.png';
@@ -56,7 +56,7 @@ export default class App extends React.Component {
 
         return (
         <div>  
-            <Router>
+            <BrowserRouter>
                 <header className="toolbar">
                     <nav className="toolbar_nav">
                         <div className = "toolbar_toggle_button"> 
@@ -77,7 +77,7 @@ export default class App extends React.Component {
                         </div>
                     </nav>
                 </header>
-                <Switch>
+                <Switch className="content">
                     {
                         this.state.internalLinks.map((link) =>
                             <Route key={link.id} path={link.link} exact component={link.component} />
@@ -95,9 +95,9 @@ export default class App extends React.Component {
                 </footer>
                 <SideDraw show ={this.state.sideDrawerOpen} sideLinks={this.state.internalLinks}/>
                 {backdrop}
-            </Router>
+            </BrowserRouter>
         </div>
         )
-  }
+    }
 }
 
