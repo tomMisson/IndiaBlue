@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tomMisson/IndiaBlue/static/css/main.ba9c0242.chunk.css",
+    "main.js": "/tomMisson/IndiaBlue/static/js/main.3f5f3047.chunk.js",
+    "main.js.map": "/tomMisson/IndiaBlue/static/js/main.3f5f3047.chunk.js.map",
+    "runtime~main.js": "/tomMisson/IndiaBlue/static/js/runtime~main.44fca0a7.js",
+    "runtime~main.js.map": "/tomMisson/IndiaBlue/static/js/runtime~main.44fca0a7.js.map",
+    "static/js/2.d0968367.chunk.js": "/tomMisson/IndiaBlue/static/js/2.d0968367.chunk.js",
+    "static/js/2.d0968367.chunk.js.map": "/tomMisson/IndiaBlue/static/js/2.d0968367.chunk.js.map",
+    "index.html": "/tomMisson/IndiaBlue/index.html",
+    "precache-manifest.513510767dbf066a41690b3104b83c05.js": "/tomMisson/IndiaBlue/precache-manifest.513510767dbf066a41690b3104b83c05.js",
+    "service-worker.js": "/tomMisson/IndiaBlue/service-worker.js",
+    "static/css/main.ba9c0242.chunk.css.map": "/tomMisson/IndiaBlue/static/css/main.ba9c0242.chunk.css.map",
+    "static/media/facebook.png": "/tomMisson/IndiaBlue/static/media/facebook.6163476d.png",
+    "static/media/logo dark.png": "/tomMisson/IndiaBlue/static/media/logo dark.d8c2e371.png",
+    "static/media/soundcloud.png": "/tomMisson/IndiaBlue/static/media/soundcloud.c2d9166a.png",
+    "static/media/App.css": "/tomMisson/IndiaBlue/static/media/stand.cccad949.jpg",
+    "static/media/youtube.png": "/tomMisson/IndiaBlue/static/media/youtube.ac11c287.png"
+  }
+}
