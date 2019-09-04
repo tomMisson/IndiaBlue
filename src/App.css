@@ -239,6 +239,27 @@ li{
   }
 }
 
+form{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+input, textarea{
+  width: 60%;
+  padding: 12px 20px;
+  margin:5px;
+  border: none;
+  border-radius: 20px;
+}
+
+.sendButton{
+  padding: 12px 40px;
+}
+
+textarea{
+  height: 15vh;
+}
+
 ::-webkit-scrollbar { 
   display: none; 
 } 
