@@ -1,10 +1,12 @@
 {
   "name": "indiablue",
   "version": "1.0.0",
-  "description": "India bule cover page",
+  "description": "India blue cover page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,24 @@
   "bugs": {
     "url": "https://github.com/tomMisson/IndiaBlue/issues"
   },
-  "homepage": "https://github.com/tomMisson/IndiaBlue#readme"
+  "homepage": "https://github.com/tomMisson/IndiaBlue#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1",
+    "start-react-app": "^0.1.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
