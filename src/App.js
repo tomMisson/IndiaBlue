@@ -24,7 +24,7 @@ export default class App extends React.Component {
         internalLinks:[
             {id:0, name:"Home", link:"/", component:Index},
             {id:1, name:"Music", link:"/music", component:Video},
-            {id:2, name:"Event", link:"/event", component:Events},
+            {id:2, name:"Events", link:"/event", component:Events},
             {id:3, name:"Contact", link:"/contact", component:Contact},
         ],
         sideDrawerOpen:false,

@@ -21,7 +21,7 @@ body{
 .jumbotron h1{
   font-family: 'Cinzel', serif;
   text-align: center;
-  padding:28vh 30vw;
+  padding:18vh 30vw;
   font-size: 4.0rem;
   letter-spacing: 8px;
   text-shadow: 3px 3px 2px rgba(0,0,0,0.5); 
@@ -32,7 +32,7 @@ h1{
   text-align: center;
   font-size: 4.0rem;
   text-shadow: 3px 3px 2px rgba(0,0,0,0.5); 
-  padding-bottom: 50px;
+  padding-bottom: 0.5vh;
 }
 
 .jumbotron p{
